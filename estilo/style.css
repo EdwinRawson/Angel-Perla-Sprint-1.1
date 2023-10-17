@@ -205,12 +205,13 @@ text-shadow:  white;
 
 }
 .imagen5{
-width: auto;
+
     margin: 4px;
   text-align: center;
 
 }
 .imagen5 img{
+    width: 100%;
     border-radius: 5%;
     object-fit: cover;
   
