@@ -6,7 +6,7 @@
     color: black;
     background: gray;
     justify-content: space-between;
-    height: 120px;
+    height: 100%;
     padding:10px;
     text-align: left;
     padding-top: 10px;
@@ -14,9 +14,9 @@
 .logo{
 width: 100px;
 height: 100px;
-text-align: center;
 float: right;
-justify-content: space-between;
+top: 0;
+
 }
 
 body{
@@ -377,7 +377,7 @@ width: auto;
     
         .btn {
            
-            width: 20rem;
+            width: 18rem;
             overflow: hidden;
             height: 6rem;
             justify-content: space-between;
