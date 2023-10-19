@@ -1,4 +1,6 @@
 
+
+
    
 .nav{
     color: black;
@@ -22,6 +24,23 @@ background-color: rgba(137, 43, 226, 0.562);
 font-family:Arial, Helvetica, sans-serif;
 background-position: center;
 }
+.buttnav{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    width: 150px;
+    height: 100px;
+    border-radius: 20px;
+background-color: rgba(1, 255, 255, 0.712);
+transition: all;
+transition-duration: 500ms;
+}
+.buttnav:hover{
+    text-decoration:underline;
+    color: rgb(255, 255, 255);
+    background-color: blueviolet;
+    box-shadow:  20px 10px 50px 8px black
+}
+
 button{
     font-family: 'Times New Roman', Times, serif;
     font-size: 20px;
@@ -243,4 +262,116 @@ float: right;
         font-size: 40px;
         padding: 20px;
         margin-bottom: 1px;
+        margin-top: 50px;
     }
+         .table{
+            width: 100%;
+        height: 100%;
+        padding: 3rem;
+            background-image: url(../imagenes/favicon.png);
+            object-fit: cover;
+            background-repeat: no-repeat;
+     background-size:contain;
+        text-align: center;
+        background-color: rgb(80, 79, 80);
+        text-decoration: wavy;
+        color: aliceblue;
+        text-shadow:
+        1px 1px 2px black,
+        0 0 1em black,
+        0 0 0.2em black;
+        }
+       .table-header {
+        width: 100%;
+        height: auto;
+        background: rgb(133, 89, 133);
+        padding:20px;
+        border-top-left-radius:10px;
+        border-top-right-radius:10px
+       }
+                     
+       .comprar {
+        text-align:center;
+        font-size: 20px;
+       
+        border-radius: 20px;
+    background-color: rgb(98, 201, 78);
+    transition: all;
+    transition-duration: 500ms;
+    
+
+       }
+       .compra{
+    color: black;
+    text-shadow: white;
+    font-size: 50px;
+    text-align: left;
+   padding: 20px;
+    }
+
+
+       .let1{
+        position: sticky;
+        width: auto;
+        height: auto;
+        float: left;
+        justify-content: space-between;
+        border-radius: 10px;
+        padding: 2rem;
+        background-color: rgb(60, 255, 0);
+        padding-top: 1rem;} 
+        
+        .let2{
+            position: sticky;
+            width: auto;
+            height: auto;
+            float: right;
+            justify-content: space-between;
+            border-radius: 10px;
+            padding: 2rem;
+            background-color: rgb(255, 0, 0);
+            padding-top: 1rem;
+         
+           
+        }
+       
+       .comprar:hover {
+        text-decoration:underline;
+        color: rgb(255, 255, 255);
+        background-color: rgb(253, 0, 0);
+        box-shadow:  20px 10px 50px 8px black
+       }
+       
+
+   
+
+   
+.list{
+text-align: left;
+flex-direction: column;
+font-size: 40px;
+}
+.email2{
+width: auto;
+}
+.article{
+    float: left;
+border: #3a333d;
+border-style:groove;
+width: auto;
+}
+        .rese1{
+            border: #3a333d;
+            border-style:groove;
+            width: auto;
+            display: flex;
+            flex-direction: row;
+        }
+        .rese2{
+            border: #3a333d;
+border-style:groove;
+width: auto;
+            display: flex;
+            flex-direction: row;
+        }
+    
